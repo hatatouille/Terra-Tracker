@@ -15,6 +15,8 @@
 		9E17CC62245D0E310018C847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E17CC61245D0E310018C847 /* Assets.xcassets */; };
 		9E17CC65245D0E310018C847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E17CC63245D0E310018C847 /* LaunchScreen.storyboard */; };
 		9E17CC70245D0E320018C847 /* Terra_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E17CC6F245D0E320018C847 /* Terra_TrackerTests.swift */; };
+		9E17CC7B245D10040018C847 /* Location.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E17CC7A245D10040018C847 /* Location.storyboard */; };
+		9E17CC7D245D10270018C847 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E17CC7C245D10270018C847 /* LocationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		9E17CC6B245D0E320018C847 /* Terra-TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Terra-TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E17CC6F245D0E320018C847 /* Terra_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terra_TrackerTests.swift; sourceTree = "<group>"; };
 		9E17CC71245D0E320018C847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E17CC7A245D10040018C847 /* Location.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Location.storyboard; sourceTree = "<group>"; };
+		9E17CC7C245D10270018C847 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 				9E17CC63245D0E310018C847 /* LaunchScreen.storyboard */,
 				9E17CC66245D0E310018C847 /* Info.plist */,
 				9E17CC5E245D0E300018C847 /* Terra_Tracker.xcdatamodeld */,
+				9E17CC7E245D103B0018C847 /* LocationTest */,
 			);
 			path = "Terra-Tracker";
 			sourceTree = "<group>";
@@ -100,6 +105,15 @@
 				9E17CC71245D0E320018C847 /* Info.plist */,
 			);
 			path = "Terra-TrackerTests";
+			sourceTree = "<group>";
+		};
+		9E17CC7E245D103B0018C847 /* LocationTest */ = {
+			isa = PBXGroup;
+			children = (
+				9E17CC7A245D10040018C847 /* Location.storyboard */,
+				9E17CC7C245D10270018C847 /* LocationViewController.swift */,
+			);
+			path = LocationTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +200,7 @@
 				9E17CC65245D0E310018C847 /* LaunchScreen.storyboard in Resources */,
 				9E17CC62245D0E310018C847 /* Assets.xcassets in Resources */,
 				9E17CC5D245D0E300018C847 /* Main.storyboard in Resources */,
+				9E17CC7B245D10040018C847 /* Location.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E17CC7D245D10270018C847 /* LocationViewController.swift in Sources */,
 				9E17CC5A245D0E300018C847 /* ViewController.swift in Sources */,
 				9E17CC56245D0E300018C847 /* AppDelegate.swift in Sources */,
 				9E17CC58245D0E300018C847 /* SceneDelegate.swift in Sources */,
@@ -369,6 +385,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z65J8N368W;
 				INFOPLIST_FILE = "Terra-Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -387,6 +404,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z65J8N368W;
 				INFOPLIST_FILE = "Terra-Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
