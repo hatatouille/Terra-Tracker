@@ -27,6 +27,9 @@
 		9E63D43F245DD09E00C1D91F /* diamond3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9E63D43B245DD09E00C1D91F /* diamond3.gif */; };
 		9E63D440245DD09E00C1D91F /* diamond2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9E63D43C245DD09E00C1D91F /* diamond2.gif */; };
 		9E63D442245DD0F300C1D91F /* GIFSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E63D441245DD0F300C1D91F /* GIFSupport.swift */; };
+		9E63D447245EA2A200C1D91F /* NightStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E63D444245EA2A200C1D91F /* NightStyle.json */; };
+		9E63D448245EA2A200C1D91F /* DayStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E63D445245EA2A200C1D91F /* DayStyle.json */; };
+		9E63D449245EA2A200C1D91F /* EveningStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E63D446245EA2A200C1D91F /* EveningStyle.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 		9E63D43B245DD09E00C1D91F /* diamond3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = diamond3.gif; sourceTree = "<group>"; };
 		9E63D43C245DD09E00C1D91F /* diamond2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = diamond2.gif; sourceTree = "<group>"; };
 		9E63D441245DD0F300C1D91F /* GIFSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFSupport.swift; sourceTree = "<group>"; };
+		9E63D444245EA2A200C1D91F /* NightStyle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NightStyle.json; sourceTree = "<group>"; };
+		9E63D445245EA2A200C1D91F /* DayStyle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DayStyle.json; sourceTree = "<group>"; };
+		9E63D446245EA2A200C1D91F /* EveningStyle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EveningStyle.json; sourceTree = "<group>"; };
 		A4E5258F0AA659A999A9655C /* Pods_Terra_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Terra_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -127,6 +133,7 @@
 		9E17CC54245D0E300018C847 /* Terra-Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				9E63D443245EA27400C1D91F /* MapViews */,
 				9E63D438245DD06400C1D91F /* GIF */,
 				9E17CC84245D60610018C847 /* Pokemon */,
 				9E17CC55245D0E300018C847 /* AppDelegate.swift */,
@@ -181,6 +188,16 @@
 				9E63D43A245DD09D00C1D91F /* player.gif */,
 			);
 			path = GIF;
+			sourceTree = "<group>";
+		};
+		9E63D443245EA27400C1D91F /* MapViews */ = {
+			isa = PBXGroup;
+			children = (
+				9E63D445245EA2A200C1D91F /* DayStyle.json */,
+				9E63D446245EA2A200C1D91F /* EveningStyle.json */,
+				9E63D444245EA2A200C1D91F /* NightStyle.json */,
+			);
+			path = MapViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,10 +288,13 @@
 				9E17CC62245D0E310018C847 /* Assets.xcassets in Resources */,
 				9E63D43D245DD09E00C1D91F /* diamond1.gif in Resources */,
 				9E63D43F245DD09E00C1D91F /* diamond3.gif in Resources */,
+				9E63D448245EA2A200C1D91F /* DayStyle.json in Resources */,
 				9E63D43E245DD09E00C1D91F /* player.gif in Resources */,
 				9E17CC5D245D0E300018C847 /* Main.storyboard in Resources */,
 				9E63D440245DD09E00C1D91F /* diamond2.gif in Resources */,
 				9E17CC7B245D10040018C847 /* Location.storyboard in Resources */,
+				9E63D447245EA2A200C1D91F /* NightStyle.json in Resources */,
+				9E63D449245EA2A200C1D91F /* EveningStyle.json in Resources */,
 				9E17CC86245D608E0018C847 /* Pokemon.storyboard in Resources */,
 				9E17CC80245D43BD0018C847 /* APIKey.plist in Resources */,
 			);
