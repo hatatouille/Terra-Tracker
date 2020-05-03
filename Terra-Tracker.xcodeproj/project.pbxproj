@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CCC3752E0E5C67ECB474DF4 /* Pods_Terra_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E5258F0AA659A999A9655C /* Pods_Terra_Tracker.framework */; };
 		9E17CC56245D0E300018C847 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E17CC55245D0E300018C847 /* AppDelegate.swift */; };
 		9E17CC58245D0E300018C847 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E17CC57245D0E300018C847 /* SceneDelegate.swift */; };
 		9E17CC5A245D0E300018C847 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E17CC59245D0E300018C847 /* ViewController.swift */; };
@@ -17,6 +18,15 @@
 		9E17CC70245D0E320018C847 /* Terra_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E17CC6F245D0E320018C847 /* Terra_TrackerTests.swift */; };
 		9E17CC7B245D10040018C847 /* Location.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E17CC7A245D10040018C847 /* Location.storyboard */; };
 		9E17CC7D245D10270018C847 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E17CC7C245D10270018C847 /* LocationViewController.swift */; };
+		9E17CC80245D43BD0018C847 /* APIKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E17CC7F245D43BD0018C847 /* APIKey.plist */; };
+		9E17CC82245D47790018C847 /* KeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E17CC81245D47790018C847 /* KeyManager.swift */; };
+		9E17CC86245D608E0018C847 /* Pokemon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E17CC85245D608E0018C847 /* Pokemon.storyboard */; };
+		9E17CC88245D60A50018C847 /* PokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E17CC87245D60A50018C847 /* PokemonViewController.swift */; };
+		9E63D43D245DD09E00C1D91F /* diamond1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9E63D439245DD09D00C1D91F /* diamond1.gif */; };
+		9E63D43E245DD09E00C1D91F /* player.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9E63D43A245DD09D00C1D91F /* player.gif */; };
+		9E63D43F245DD09E00C1D91F /* diamond3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9E63D43B245DD09E00C1D91F /* diamond3.gif */; };
+		9E63D440245DD09E00C1D91F /* diamond2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9E63D43C245DD09E00C1D91F /* diamond2.gif */; };
+		9E63D442245DD0F300C1D91F /* GIFSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E63D441245DD0F300C1D91F /* GIFSupport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32FB029FBE5E30C1BA2C9361 /* Pods-Terra-Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Terra-Tracker.debug.xcconfig"; path = "Target Support Files/Pods-Terra-Tracker/Pods-Terra-Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		674F43E8D9F66E6E23E643C0 /* Pods-Terra-Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Terra-Tracker.release.xcconfig"; path = "Target Support Files/Pods-Terra-Tracker/Pods-Terra-Tracker.release.xcconfig"; sourceTree = "<group>"; };
 		9E17CC52245D0E300018C847 /* Terra-Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Terra-Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E17CC55245D0E300018C847 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E17CC57245D0E300018C847 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +56,16 @@
 		9E17CC71245D0E320018C847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E17CC7A245D10040018C847 /* Location.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Location.storyboard; sourceTree = "<group>"; };
 		9E17CC7C245D10270018C847 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		9E17CC7F245D43BD0018C847 /* APIKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKey.plist; sourceTree = "<group>"; };
+		9E17CC81245D47790018C847 /* KeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyManager.swift; sourceTree = "<group>"; };
+		9E17CC85245D608E0018C847 /* Pokemon.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pokemon.storyboard; sourceTree = "<group>"; };
+		9E17CC87245D60A50018C847 /* PokemonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewController.swift; sourceTree = "<group>"; };
+		9E63D439245DD09D00C1D91F /* diamond1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = diamond1.gif; sourceTree = "<group>"; };
+		9E63D43A245DD09D00C1D91F /* player.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = player.gif; sourceTree = "<group>"; };
+		9E63D43B245DD09E00C1D91F /* diamond3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = diamond3.gif; sourceTree = "<group>"; };
+		9E63D43C245DD09E00C1D91F /* diamond2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = diamond2.gif; sourceTree = "<group>"; };
+		9E63D441245DD0F300C1D91F /* GIFSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFSupport.swift; sourceTree = "<group>"; };
+		A4E5258F0AA659A999A9655C /* Pods_Terra_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Terra_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CCC3752E0E5C67ECB474DF4 /* Pods_Terra_Tracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,12 +87,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39A7D48C0E96CAD6E0741ED4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4E5258F0AA659A999A9655C /* Pods_Terra_Tracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A949D46ED9C164D80820123 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32FB029FBE5E30C1BA2C9361 /* Pods-Terra-Tracker.debug.xcconfig */,
+				674F43E8D9F66E6E23E643C0 /* Pods-Terra-Tracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9E17CC49245D0E300018C847 = {
 			isa = PBXGroup;
 			children = (
 				9E17CC54245D0E300018C847 /* Terra-Tracker */,
 				9E17CC6E245D0E320018C847 /* Terra-TrackerTests */,
 				9E17CC53245D0E300018C847 /* Products */,
+				7A949D46ED9C164D80820123 /* Pods */,
+				39A7D48C0E96CAD6E0741ED4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +127,8 @@
 		9E17CC54245D0E300018C847 /* Terra-Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				9E63D438245DD06400C1D91F /* GIF */,
+				9E17CC84245D60610018C847 /* Pokemon */,
 				9E17CC55245D0E300018C847 /* AppDelegate.swift */,
 				9E17CC57245D0E300018C847 /* SceneDelegate.swift */,
 				9E17CC59245D0E300018C847 /* ViewController.swift */,
@@ -94,6 +138,9 @@
 				9E17CC66245D0E310018C847 /* Info.plist */,
 				9E17CC5E245D0E300018C847 /* Terra_Tracker.xcdatamodeld */,
 				9E17CC7E245D103B0018C847 /* LocationTest */,
+				9E17CC7F245D43BD0018C847 /* APIKey.plist */,
+				9E17CC81245D47790018C847 /* KeyManager.swift */,
+				9E63D441245DD0F300C1D91F /* GIFSupport.swift */,
 			);
 			path = "Terra-Tracker";
 			sourceTree = "<group>";
@@ -116,6 +163,26 @@
 			path = LocationTest;
 			sourceTree = "<group>";
 		};
+		9E17CC84245D60610018C847 /* Pokemon */ = {
+			isa = PBXGroup;
+			children = (
+				9E17CC85245D608E0018C847 /* Pokemon.storyboard */,
+				9E17CC87245D60A50018C847 /* PokemonViewController.swift */,
+			);
+			path = Pokemon;
+			sourceTree = "<group>";
+		};
+		9E63D438245DD06400C1D91F /* GIF */ = {
+			isa = PBXGroup;
+			children = (
+				9E63D439245DD09D00C1D91F /* diamond1.gif */,
+				9E63D43C245DD09E00C1D91F /* diamond2.gif */,
+				9E63D43B245DD09E00C1D91F /* diamond3.gif */,
+				9E63D43A245DD09D00C1D91F /* player.gif */,
+			);
+			path = GIF;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -123,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E17CC74245D0E320018C847 /* Build configuration list for PBXNativeTarget "Terra-Tracker" */;
 			buildPhases = (
+				BF0142FA250666F10453FA61 /* [CP] Check Pods Manifest.lock */,
 				9E17CC4E245D0E300018C847 /* Sources */,
 				9E17CC4F245D0E300018C847 /* Frameworks */,
 				9E17CC50245D0E300018C847 /* Resources */,
+				06E1409125AFC6CAF65E0D3F /* [CP] Copy Pods Resources */,
+				FA276102D1D573BC22508E68 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,8 +269,14 @@
 			files = (
 				9E17CC65245D0E310018C847 /* LaunchScreen.storyboard in Resources */,
 				9E17CC62245D0E310018C847 /* Assets.xcassets in Resources */,
+				9E63D43D245DD09E00C1D91F /* diamond1.gif in Resources */,
+				9E63D43F245DD09E00C1D91F /* diamond3.gif in Resources */,
+				9E63D43E245DD09E00C1D91F /* player.gif in Resources */,
 				9E17CC5D245D0E300018C847 /* Main.storyboard in Resources */,
+				9E63D440245DD09E00C1D91F /* diamond2.gif in Resources */,
 				9E17CC7B245D10040018C847 /* Location.storyboard in Resources */,
+				9E17CC86245D608E0018C847 /* Pokemon.storyboard in Resources */,
+				9E17CC80245D43BD0018C847 /* APIKey.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +289,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06E1409125AFC6CAF65E0D3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Terra-Tracker/Pods-Terra-Tracker-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Terra-Tracker/Pods-Terra-Tracker-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Terra-Tracker/Pods-Terra-Tracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF0142FA250666F10453FA61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Terra-Tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA276102D1D573BC22508E68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Terra-Tracker/Pods-Terra-Tracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Terra-Tracker/Pods-Terra-Tracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Terra-Tracker/Pods-Terra-Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9E17CC4E245D0E300018C847 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -221,8 +356,11 @@
 				9E17CC7D245D10270018C847 /* LocationViewController.swift in Sources */,
 				9E17CC5A245D0E300018C847 /* ViewController.swift in Sources */,
 				9E17CC56245D0E300018C847 /* AppDelegate.swift in Sources */,
+				9E17CC88245D60A50018C847 /* PokemonViewController.swift in Sources */,
 				9E17CC58245D0E300018C847 /* SceneDelegate.swift in Sources */,
 				9E17CC60245D0E300018C847 /* Terra_Tracker.xcdatamodeld in Sources */,
+				9E63D442245DD0F300C1D91F /* GIFSupport.swift in Sources */,
+				9E17CC82245D47790018C847 /* KeyManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +518,7 @@
 		};
 		9E17CC75245D0E320018C847 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32FB029FBE5E30C1BA2C9361 /* Pods-Terra-Tracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -390,6 +529,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hatatouille.terra-tracker.Terra-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -399,6 +539,7 @@
 		};
 		9E17CC76245D0E320018C847 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 674F43E8D9F66E6E23E643C0 /* Pods-Terra-Tracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

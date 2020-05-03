@@ -25,6 +25,16 @@
                     <view key="view" contentMode="scaleToFill" id="4K0-2c-Let">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YbX-QO-YAX">
+                                <rect key="frame" x="129" y="221" width="64" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Pokemon"/>
+                                <connections>
+                                    <segue destination="T4F-SR-gf6" kind="show" id="SHa-xh-UmR"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="H4m-2I-H9M"/>
                     </view>
@@ -42,16 +52,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18R-T8-aQj">
-                                <rect key="frame" x="137" y="327" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18R-T8-aQj">
+                                <rect key="frame" x="130.5" y="327" width="59" height="30"/>
+                                <state key="normal" title="Location"/>
                                 <connections>
                                     <segue destination="N6h-HB-hJn" kind="show" id="MpI-Uc-p39"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="18R-T8-aQj" firstAttribute="centerX" secondItem="cIY-Wg-zUQ" secondAttribute="centerX" id="Aji-oG-7ym"/>
+                            <constraint firstItem="18R-T8-aQj" firstAttribute="top" secondItem="PQT-L8-rkc" secondAttribute="top" constant="327" id="fBp-oS-pd9"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="PQT-L8-rkc"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="xzQ-kl-uLk"/>
@@ -77,6 +90,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gQD-kw-w2p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-264" y="-700"/>
+        </scene>
+        <!--Pokemon-->
+        <scene sceneID="sgd-Mo-WWz">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Pokemon" id="T4F-SR-gf6" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="KYJ-ej-PF6"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fVy-Jk-9gb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1337" y="-362"/>
         </scene>
     </scenes>
 </document>
