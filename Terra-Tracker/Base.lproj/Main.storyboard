@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Location-->
+        <!--MapboxTest-->
         <scene sceneID="dS8-hB-5jh">
             <objects>
-                <viewControllerPlaceholder storyboardName="Location" id="N6h-HB-hJn" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="MapboxTest" id="N6h-HB-hJn" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="7xu-cR-79L"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zno-pc-xmv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -53,8 +53,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18R-T8-aQj">
-                                <rect key="frame" x="130.5" y="327" width="59" height="30"/>
-                                <state key="normal" title="Location"/>
+                                <rect key="frame" x="132.5" y="327" width="55" height="30"/>
+                                <state key="normal" title="Mapbox"/>
                                 <connections>
                                     <segue destination="N6h-HB-hJn" kind="show" id="MpI-Uc-p39"/>
                                 </connections>

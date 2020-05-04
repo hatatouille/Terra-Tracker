@@ -93,7 +93,7 @@ class PokemonViewController: UIViewController, GMSMapViewDelegate, CLLocationMan
         let coord = locationObj?.coordinate
         let latitude = coord?.latitude
         let longitude = coord?.longitude
-        // mapView.isMyLocationEnabled = true
+        mapView.isMyLocationEnabled = true
         userMarkerimageView.frame = CGRect(x: 0, y: 0, width: 40, height: 70)
         let camera: GMSCameraPosition = GMSCameraPosition.camera(withLatitude: latitude ?? capitolLat, longitude: longitude ?? capitolLon, zoom: zoomLevel, bearing: bearingAngle, viewingAngle: angleOfView)
         self.mapView.animate(to: camera)

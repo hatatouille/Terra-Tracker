@@ -5,4 +5,5 @@ target 'Terra-Tracker' do
 	pod 'TPKeyboardAvoiding'
 	pod 'GoogleMaps'
 	pod 'PopupDialog'
+  pod 'Mapbox-iOS-SDK', '~> 5.8'
 end

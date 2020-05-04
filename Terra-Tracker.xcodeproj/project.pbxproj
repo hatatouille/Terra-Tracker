@@ -30,6 +30,8 @@
 		9E63D447245EA2A200C1D91F /* NightStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E63D444245EA2A200C1D91F /* NightStyle.json */; };
 		9E63D448245EA2A200C1D91F /* DayStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E63D445245EA2A200C1D91F /* DayStyle.json */; };
 		9E63D449245EA2A200C1D91F /* EveningStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E63D446245EA2A200C1D91F /* EveningStyle.json */; };
+		9ECE9D6D245FBD08008E7D48 /* MapboxTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECE9D6C245FBD08008E7D48 /* MapboxTest.storyboard */; };
+		9ECE9D71245FD360008E7D48 /* MapboxTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECE9D70245FD360008E7D48 /* MapboxTestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		9E63D444245EA2A200C1D91F /* NightStyle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NightStyle.json; sourceTree = "<group>"; };
 		9E63D445245EA2A200C1D91F /* DayStyle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DayStyle.json; sourceTree = "<group>"; };
 		9E63D446245EA2A200C1D91F /* EveningStyle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EveningStyle.json; sourceTree = "<group>"; };
+		9ECE9D6C245FBD08008E7D48 /* MapboxTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapboxTest.storyboard; sourceTree = "<group>"; };
+		9ECE9D70245FD360008E7D48 /* MapboxTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapboxTestViewController.swift; sourceTree = "<group>"; };
 		A4E5258F0AA659A999A9655C /* Pods_Terra_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Terra_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -133,6 +137,7 @@
 		9E17CC54245D0E300018C847 /* Terra-Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				9ECE9D6B245FBCE2008E7D48 /* MapboxTest */,
 				9E63D443245EA27400C1D91F /* MapViews */,
 				9E63D438245DD06400C1D91F /* GIF */,
 				9E17CC84245D60610018C847 /* Pokemon */,
@@ -198,6 +203,15 @@
 				9E63D444245EA2A200C1D91F /* NightStyle.json */,
 			);
 			path = MapViews;
+			sourceTree = "<group>";
+		};
+		9ECE9D6B245FBCE2008E7D48 /* MapboxTest */ = {
+			isa = PBXGroup;
+			children = (
+				9ECE9D6C245FBD08008E7D48 /* MapboxTest.storyboard */,
+				9ECE9D70245FD360008E7D48 /* MapboxTestViewController.swift */,
+			);
+			path = MapboxTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +307,7 @@
 				9E17CC5D245D0E300018C847 /* Main.storyboard in Resources */,
 				9E63D440245DD09E00C1D91F /* diamond2.gif in Resources */,
 				9E17CC7B245D10040018C847 /* Location.storyboard in Resources */,
+				9ECE9D6D245FBD08008E7D48 /* MapboxTest.storyboard in Resources */,
 				9E63D447245EA2A200C1D91F /* NightStyle.json in Resources */,
 				9E63D449245EA2A200C1D91F /* EveningStyle.json in Resources */,
 				9E17CC86245D608E0018C847 /* Pokemon.storyboard in Resources */,
@@ -374,6 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E17CC7D245D10270018C847 /* LocationViewController.swift in Sources */,
+				9ECE9D71245FD360008E7D48 /* MapboxTestViewController.swift in Sources */,
 				9E17CC5A245D0E300018C847 /* ViewController.swift in Sources */,
 				9E17CC56245D0E300018C847 /* AppDelegate.swift in Sources */,
 				9E17CC88245D60A50018C847 /* PokemonViewController.swift in Sources */,
